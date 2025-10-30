@@ -14,9 +14,10 @@
     "audio": {
         "cavaFrameRate": 60,
         "mprisBlacklist": [
+            "spotify"
         ],
-        "preferredPlayer": "",
-        "visualizerType": "linear",
+        "preferredPlayer": "cider",
+        "visualizerType": "wave",
         "volumeOverdrive": false,
         "volumeStep": 5
     },
@@ -39,6 +40,16 @@
                     "id": "Clock",
                     "useCustomFont": false,
                     "usePrimaryColor": true
+                },
+                {
+                    "hideMode": "hidden",
+                    "id": "MediaMini",
+                    "maxWidth": 145,
+                    "scrollingMode": "hover",
+                    "showAlbumArt": false,
+                    "showVisualizer": false,
+                    "useFixedWidth": false,
+                    "visualizerType": "linear"
                 }
             ],
             "left": [
@@ -56,16 +67,6 @@
                     "scrollingMode": "hover",
                     "showIcon": true,
                     "useFixedWidth": false
-                },
-                {
-                    "hideMode": "hidden",
-                    "id": "MediaMini",
-                    "maxWidth": 145,
-                    "scrollingMode": "hover",
-                    "showAlbumArt": false,
-                    "showVisualizer": false,
-                    "useFixedWidth": false,
-                    "visualizerType": "linear"
                 }
             ],
             "right": [
@@ -304,6 +305,16 @@
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "eDP-1",
+                "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
+            },
+            {
+                "directory": "/usr/share/backgrounds",
+                "name": "DP-2",
+                "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
+            },
+            {
+                "directory": "/usr/share/backgrounds",
+                "name": "DP-1",
                 "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
             }
         ],
