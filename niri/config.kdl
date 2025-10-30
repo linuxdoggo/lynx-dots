@@ -106,7 +106,12 @@ input {
     position x=0 y=360
     scale 1
 }
- 
+
+output "eDP-1" {
+    mode "1920x1200@60.000"
+    scale 1.5
+}
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
