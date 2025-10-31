@@ -8,7 +8,7 @@
         ],
         "position": "center",
         "sortByMostUsed": true,
-        "terminalCommand": "xterm -e",
+        "terminalCommand": "ghostty",
         "useApp2Unit": false
     },
     "audio": {
@@ -35,21 +35,11 @@
             "center": [
                 {
                     "customFont": "",
-                    "formatHorizontal": "HH:mm ddd, MMM dd",
-                    "formatVertical": "HH mm - dd MM",
+                    "formatHorizontal": "HH:mm dddd, yyyy-MM-dd",
+                    "formatVertical": "HH mm ss - dd MM",
                     "id": "Clock",
                     "useCustomFont": false,
                     "usePrimaryColor": true
-                },
-                {
-                    "hideMode": "hidden",
-                    "id": "MediaMini",
-                    "maxWidth": 145,
-                    "scrollingMode": "hover",
-                    "showAlbumArt": false,
-                    "showVisualizer": false,
-                    "useFixedWidth": false,
-                    "visualizerType": "linear"
                 }
             ],
             "left": [
@@ -57,7 +47,17 @@
                     "characterCount": 2,
                     "hideUnoccupied": false,
                     "id": "Workspace",
-                    "labelMode": "index"
+                    "labelMode": "none"
+                },
+                {
+                    "hideMode": "hidden",
+                    "id": "MediaMini",
+                    "maxWidth": 145,
+                    "scrollingMode": "hover",
+                    "showAlbumArt": true,
+                    "showVisualizer": true,
+                    "useFixedWidth": false,
+                    "visualizerType": "linear"
                 },
                 {
                     "colorizeIcons": false,
@@ -100,7 +100,7 @@
                 },
                 {
                     "customIconPath": "",
-                    "icon": "noctalia",
+                    "icon": "cat",
                     "id": "ControlCenter",
                     "useDistroLogo": false
                 }
@@ -115,7 +115,7 @@
         "enforceMinimum": true
     },
     "colorSchemes": {
-        "darkMode": true,
+        "darkMode": false,
         "generateTemplatesForPredefined": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
@@ -197,7 +197,7 @@
         "animationSpeed": 1,
         "avatarImage": "/home/rye/.face",
         "compactLockScreen": false,
-        "dimDesktop": true,
+        "dimDesktop": false,
         "forceBlackScreenCorners": false,
         "language": "",
         "lockOnSuspend": true,
@@ -213,9 +213,10 @@
     },
     "location": {
         "analogClockInCalendar": false,
+        "firstDayOfWeek": 1,
         "name": "Amsterdam",
         "showCalendarEvents": true,
-        "showCalendarWeather": false,
+        "showCalendarWeather": true,
         "showWeekNumberInCalendar": false,
         "use12hourFormat": false,
         "useFahrenheit": false,
@@ -262,11 +263,12 @@
         "quality": "very_high",
         "showCursor": true,
         "videoCodec": "h264",
-        "videoSource": "portal"
+        "videoSource": "screen"
     },
     "settingsVersion": 16,
     "setupCompleted": true,
     "templates": {
+        "code": false,
         "discord": false,
         "discord_armcord": false,
         "discord_dorion": false,
@@ -277,7 +279,7 @@
         "enableUserTemplates": false,
         "foot": false,
         "fuzzel": false,
-        "ghostty": true,
+        "ghostty": false,
         "gtk": true,
         "kcolorscheme": true,
         "kitty": false,
@@ -287,10 +289,11 @@
         "walker": false
     },
     "ui": {
-        "fontDefault": "Roboto",
+        "fontDefault": "Noto Sans",
         "fontDefaultScale": 1,
-        "fontFixed": "DejaVu Sans Mono",
+        "fontFixed": "Noto Sans Mono",
         "fontFixedScale": 1,
+        "panelsAttachedToBar": true,
         "panelsOverlayLayer": true,
         "tooltipsEnabled": true
     },
