@@ -313,12 +313,12 @@
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "DP-2",
-                "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
+                "wallpaper": "/usr/share/backgrounds/ferns-2.jpg"
             },
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "DP-1",
-                "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
+                "wallpaper": "/usr/share/backgrounds/ferns-2.jpg"
             }
         ],
         "randomEnabled": false,
