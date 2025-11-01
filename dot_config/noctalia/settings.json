@@ -121,7 +121,7 @@
         "enforceMinimum": true
     },
     "colorSchemes": {
-        "darkMode": false,
+        "darkMode": true,
         "generateTemplatesForPredefined": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
@@ -163,16 +163,10 @@
                     "id": "Bluetooth"
                 },
                 {
-                    "id": "ScreenRecorder"
-                },
-                {
                     "id": "WallpaperSelector"
                 }
             ],
             "right": [
-                {
-                    "id": "Notifications"
-                },
                 {
                     "id": "PowerProfile"
                 },
@@ -319,12 +313,12 @@
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "DP-2",
-                "wallpaper": "/usr/share/backgrounds/ali-kazal-7b39feeIMO0-unsplash.jpg"
+                "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
             },
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "DP-1",
-                "wallpaper": "/usr/share/backgrounds/ali-kazal-7b39feeIMO0-unsplash.jpg"
+                "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
             }
         ],
         "randomEnabled": false,
@@ -333,6 +327,6 @@
         "setWallpaperOnAllMonitors": true,
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
-        "transitionType": "random"
+        "transitionType": "fade"
     }
 }
