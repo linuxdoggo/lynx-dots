@@ -121,7 +121,7 @@
         "enforceMinimum": true
     },
     "colorSchemes": {
-        "darkMode": true,
+        "darkMode": false,
         "generateTemplatesForPredefined": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
@@ -265,7 +265,7 @@
         "videoSource": "screen"
     },
     "settingsVersion": 16,
-    "setupCompleted": true,
+    "setupCompleted": false,
     "templates": {
         "alacritty": false,
         "code": false,
@@ -289,9 +289,9 @@
         "walker": false
     },
     "ui": {
-        "fontDefault": "Noto Sans",
+        "fontDefault": "Adwaita Mono",
         "fontDefaultScale": 1,
-        "fontFixed": "Noto Sans Mono",
+        "fontFixed": "Adwaita Mono",
         "fontFixedScale": 1,
         "panelsAttachedToBar": true,
         "panelsOverlayLayer": true,
@@ -313,12 +313,12 @@
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "DP-2",
-                "wallpaper": "/usr/share/backgrounds/ferns-2.jpg"
+                "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
             },
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "DP-1",
-                "wallpaper": "/usr/share/backgrounds/ferns-2.jpg"
+                "wallpaper": "/usr/share/backgrounds/SH2-284.jpg"
             }
         ],
         "randomEnabled": false,
