@@ -12,7 +12,7 @@
         "useApp2Unit": false
     },
     "audio": {
-        "cavaFrameRate": 60,
+        "cavaFrameRate": 144,
         "mprisBlacklist": [
             "spotify"
         ],
@@ -57,7 +57,7 @@
                     "showAlbumArt": true,
                     "showVisualizer": true,
                     "useFixedWidth": false,
-                    "visualizerType": "linear"
+                    "visualizerType": "wave"
                 },
                 {
                     "colorizeIcons": false,
@@ -121,11 +121,11 @@
         "enforceMinimum": true
     },
     "colorSchemes": {
-        "darkMode": true,
+        "darkMode": false,
         "generateTemplatesForPredefined": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "matugenSchemeType": "scheme-fruit-salad",
+        "matugenSchemeType": "scheme-tonal-spot",
         "predefinedScheme": "Noctalia (default)",
         "schedulingMode": "off",
         "useWallpaperColors": true
@@ -273,6 +273,7 @@
     "settingsVersion": 16,
     "setupCompleted": true,
     "templates": {
+        "alacritty": false,
         "code": false,
         "discord": false,
         "discord_armcord": false,
@@ -318,12 +319,12 @@
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "DP-2",
-                "wallpaper": "/usr/share/backgrounds/roksolana-zasiadko-rS2WbCgN7KM-unsplash.jpg"
+                "wallpaper": "/usr/share/backgrounds/ali-kazal-7b39feeIMO0-unsplash.jpg"
             },
             {
                 "directory": "/usr/share/backgrounds",
                 "name": "DP-1",
-                "wallpaper": "/usr/share/backgrounds/roksolana-zasiadko-rS2WbCgN7KM-unsplash.jpg"
+                "wallpaper": "/usr/share/backgrounds/ali-kazal-7b39feeIMO0-unsplash.jpg"
             }
         ],
         "randomEnabled": false,
